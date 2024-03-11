@@ -1,0 +1,70 @@
+- thẻ gọi css :
+    <link rel="stylesheet" href="style.css" />
+ 
+- Với id, chúng ta sử dụng dấu thăng (#) để CSS nhận diện được đó là một ID. Ví dụ như sau:
+<style>
+	#green {
+		background-color: green;
+	}
+</style>
+
+...
+
+<div id="green">Green</div>
+
++ Để chọn các class trong CSS, ta sử dụng dấu chấm (.) để đánh dấu đó là một CSS class
+
+<style>
+	.blue {
+		background-color: blue;
+	}
+	.red {
+		background-color: red;
+	}
+</style>
+
+...
+
+<div class="blue">Blue</div>
+<div class="blue">Red</div>
+```
+
+- Các cách để CSS:
++ Inline
++ CSS trong file HTML: Internal
++ CSS ở file riêng: External
+
+- CSS Selector:
++ Tên thẻ: <p style=""> 
++ Class: (.)
++ id   : (#)
+
+- Độ ưu tiên:
++ CSS trong thẻ : Inline
++ CSS trong file HTML: Internal
++ CSS ở file riêng: External
+
+- color
+- kích thước
+- căn chỉnh 
+- bố cục
+
+Key: value;
+
+- reset CSS mặc định của trình duyệt 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+. Thuộc tính border-radius ( bo tròn các góc) value %
+. Thuộc tính border (tạo viền xung quanh) value px
+. Thuộc tính position (định vị cho 1 phần tử) có 5 value
+ 	- static = tĩnh (không được định vị theo bất kỳ cách đặc biệt nào; nó luôn được định vị theo luồng thông thường của trang)
+	- relative = tương đối (được định vị so với vị trí bình thường của nó.)
+	- fixed = cố định (được định vị tương ứng với khung nhìn, có nghĩa là nó luôn ở cùng một vị trí ngay cả khi trang được cuộn. Các thuộc tính trên, phải, dưới và trái được sử dụng để định vị phần tử.
+
+)
+	- absolute = tuyệt đối
+	- sticky = cố định

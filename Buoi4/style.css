@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+  margin-top: 60px;
+}
+.div_cha {
+  height: 100px;
+  background-color: red;
+  position: relative;
+}
+
+.div_con {
+  background-color: blue;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  /* margin: auto; */
+}
+
+#header {
+  background-color: aqua;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 1;
+  padding-top: 15px;
+}

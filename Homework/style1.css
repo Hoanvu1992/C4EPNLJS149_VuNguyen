@@ -1,0 +1,80 @@
+@import url(https://use.fontawesome.com/releases/v6.5.1/css/all.css);
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #474644;
+    border-radius: 15px;
+    border-bottom: 5px solid #33322f;
+    border-left: 3px solid #000000;
+    box-shadow: 
+    -3px 5px 10px 3px #33322F80,
+    5PX -5px 20px 10px #33322F80 inset,
+    0px 2px 1px #000000B3,
+    transition:  .15s ease-in-out;
+
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: #ffffff;
+    text-shadow: 
+    0px 0px #504F4E,
+    0px 1px #424241
+    -1px 2px #353534
+    -2px 3px #282827
+    0px 6px 5px #282827; 
+
+}
+
+.tiktok:hover i {
+    text-shadow: 
+    0px 0px #c42829
+    0px 1px #ae2425
+    -1px 2px #991f20
+    -2px 3px #831b1c
+    0px 6px 5px #33322fcc
+    0 0 1em #ff0050;
+    color: #ff0050;
+
+}
+
+.twitter:hover i {
+    text-shadow: 
+    0px 0px #34AEDF
+    0px 1px #2e9ac6
+    -1px 1px #2987ae
+    -2px 3px #237495
+    0px 6px 5px #33322fcc
+    0 0 1em #3ac1f8;
+    color: #3ac1f8;
+
+}
+
+.facebook:hover i {
+    text-shadow: 
+    0px 0px #394c89
+    0px 1px #32447a
+    -1px -2px #2c3b6a
+    -2px -3px #26335b
+    0px 6px 5px #33322fcc
+    0 0 1em #4267b2;
+    color: #4267b2;
+}

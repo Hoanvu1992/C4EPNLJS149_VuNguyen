@@ -1,0 +1,35 @@
+/* p {
+  color: red;
+}
+
+#red-txt {
+  color: blue;
+}
+
+.purple-txt {
+  color: blueviolet;
+} */
+
+/* thẻ border-radius ( bo tròn các góc) chỉ số % */
+/* Thẻ border (tạo viền xung quanh) */
+/* .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: red;
+} */
+#circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: red;
+}
+#circle.bg-blue {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: rgb(99, 35, 177);
+}

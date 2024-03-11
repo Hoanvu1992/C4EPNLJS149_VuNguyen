@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+#div_search {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.search-header {
+  padding-left: 33px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1c2c2;
+}
+
+.search-form-title {
+  margin-bottom: 10px;
+  padding-left: 33px;
+}
+
+.search-form-p {
+  color: #c1c2c2;
+  margin-bottom: 20px;
+  padding-left: 34px;
+}
+
+#div_search select {
+  width: 90%;
+  border-color: #c1c2c2;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+}
+
+#div_search button {
+  background-color: #ef3f5e;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+
+.register-input1 {
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 33px;
+  text-align: center;
+}
+
+.register-input2 {
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.register-input3 {
+  width: 31%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-indent: 10px;
+}
+
+.register-map {
+  margin-left: 40px;
+  margin-right: 40px;
+}

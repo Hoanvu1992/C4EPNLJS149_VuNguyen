@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+#div_register {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.register-header {
+  padding-left: 33px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c1c2c2;
+}
+
+.register-form-title {
+  margin-bottom: 10px;
+  padding-left: 33px;
+}
+
+.register-form-p {
+  color: #c1c2c2;
+  margin-bottom: 20px;
+  padding-left: 34px;
+}
+
+#div_register input {
+  width: 90%;
+  border-color: #c1c2c2;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+}
+
+#div_register form div {
+  margin-bottom: 5px;
+}
+
+#div_register button {
+  background-color: #ef3f5e;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+A {
+  color: black;
+  text-decoration: none;
+}
+
+.register-form-p-1 {
+  color: #c1c2c2;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-left: 20px;
+  text-align: center;
+}

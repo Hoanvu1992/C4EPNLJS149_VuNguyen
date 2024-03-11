@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Ghì đè trong CSS: Code luôn chạy từ trên xuống dưới
+         và sẽ luôn nhận style cuối cùng nếu như sử dụng cùng 1 kiểu bộ chọn. */
+
+      /* Mỗi 1 class phân chia bằng dấu cách  */
+
+      /* Thứ tự ưu tiên : id > class > tên thẻ > ghì đè */
+
+      /* #change-color {
+        color: brown;
+      } */
+
+      .change-color-class {
+        color: blue;
+      }
+      p {
+        color: red;
+      }
+
+      #red-txt {
+        color: blue;
+      }
+
+      .purple-txt {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="change-color" class="change-color-class">ví dụ về internal style</p>
+  </body>
+</html>

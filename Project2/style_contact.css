@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1700px;
+  height: 2300px;
+}
+/* header */
+
+#header-div {
+  padding: 1px;
+  width: 100%;
+  display: flex;
+  background-color: #1a459d;
+  color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.header-tag-p {
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+.header-icon-brand {
+  padding-top: 5px;
+}
+
+.header-icon-brand-fb {
+  padding-left: 8px;
+  margin-top: 5px;
+}
+
+.header-tag-p-2 {
+  padding: 5px;
+  padding-left: 1000px;
+}
+
+/* Navigation */
+#nav_div {
+  padding-top: 20px;
+}
+.nav-content {
+  padding: 10px;
+  height: 60px;
+  padding-left: 300px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.nav-content-img {
+  position: relative;
+  right: 200px;
+  top: 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  margin: 5px;
+  padding-left: 500px;
+  position: relative;
+  top: 10px;
+}
+li a {
+  color: #696969;
+  margin: 15px;
+  text-decoration: none;
+}
+/* Content */
+#content-section {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-image: url(https://ptmediaplus.com/wp-content/uploads/2021/10/Welcome-to-Partner.png);
+  background-size: 100%;
+  margin-top: 10px;
+}
+
+.content-div {
+  position: relative;
+  top: 60px;
+}
+
+.content-tag-h2-1 {
+  font-size: 30px;
+  margin-top: 10px;
+  position: relative;
+  top: 200px;
+}
+
+.content-tag-h2-2 {
+  font-size: 12px;
+  position: relative;
+  top: 230px;
+}
+
+/* Form */
+
+#elementor_section {
+  width: 100%;
+  color: #696969;
+  margin-top: 50px;
+  display: flex;
+  font-weight: 700;
+  position: relative;
+}
+.div-section {
+  padding: 10px;
+  width: 50%;
+  font-size: 11px;
+  font-weight: 700;
+  padding-left: 290px;
+  margin: 10px;
+}
+
+.section-form-h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+
+.section-form-p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+}
+
+.section-form {
+  font-size: 11px;
+}
+
+.section-form-input {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 7px;
+  background-color: #1a459d;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+}
+/* contact */
+#contact-div {
+  position: absolute;
+  left: 900px;
+  top: 0px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+  width: 40%;
+  height: 500px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.contact-tag-h2 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.contact-tag-h3 {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.contact-tag-h3-1 {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.contact-tag-h3-2 {
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+#socialmedia_section {
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+  height: 400px;
+  background-color: #1a459d;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.socialmedia-tag-h2-1 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.socialmedia-tag-h2-2 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 11px;
+  line-height: 1.5em;
+  margin-bottom: 100px;
+}
+.socialmedia-grid-item-tw {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.socialmedia-iframe {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+#PT-Media-Plus {
+  background-color: #b6b6b6;
+  width: 100%;
+  height: 60px;
+}
+
+.PT-Media-Plus-tag-p {
+  padding-top: 20px;
+  padding-left: 100px;
+  font-size: 12px;
+  color: white;
+}
