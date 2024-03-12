@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 1300px;
+}
+/* header */
+
+#header-div {
+  padding: 1px;
+  width: 100%;
+  display: flex;
+  background-color: #1a459d;
+  color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.header-tag-p {
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+.header-icon-brand {
+  padding-top: 5px;
+}
+
+.header-icon-brand-fb {
+  padding-left: 8px;
+  margin-top: 5px;
+}
+
+.header-tag-p-2 {
+  padding: 5px;
+  padding-left: 1000px;
+}
+
+/* Navigation */
+#nav_div {
+  padding-top: 20px;
+}
+.nav-content {
+  padding: 10px;
+  height: 60px;
+  padding-left: 300px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.nav-content-img {
+  position: relative;
+  right: 200px;
+  top: 0px;
+}
+
+.nav-content-ul {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  margin: 5px;
+  padding-left: 500px;
+  position: relative;
+  top: 10px;
+}
+li a {
+  color: #696969;
+  margin: 15px;
+  text-decoration: none;
+}
+
+/* Navigation2 */
+.product-section1-parent-h2-1 {
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px 10px 0px;
+  font-size: 9px;
+  padding-left: 300px;
+  padding-top: 20px;
+  margin: 10px 0px 10px 0px;
+  background-color: #ebebeb;
+}
+
+.product-section1-child-h2-1 {
+  color: #333333;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+
+/* DANH MỤC SẢN PHẨM */
+#product_div2 {
+  margin: 10px;
+  padding: 20px;
+}
+
+.product-section2-h2-1 {
+  padding-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.product-section2-paren-div-ul {
+  width: 260px;
+  height: 1000px;
+  padding: 10px;
+  display: flex;
+  margin-left: 300px;
+}
+
+.product-child-tag-li-1,
+.product-child-tag-li-2,
+.product-child-tag-li-3,
+.product-child-tag-li-4,
+.product-child-tag-li-5 {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ebebeb;
+  color: black;
+}
+
+#product_section2 {
+  display: flex;
+}
+
+/* SẢN PHẨM */
+.product_3_div {
+  width: 50%;
+  height: 1000px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.product_3_div h1 {
+  margin-bottom: 20px;
+}
+
+.product-3--div-child-h1-1 {
+  padding-top: 50px;
+}
+.product-3-div-child-p-1 {
+  padding-top: 20px;
+}
+
+.product-3-select-1 {
+  position: relative;
+  left: 500px;
+  bottom: 30px;
+  padding: 10px;
+  width: 260px;
+  border: 1px solid #ddd;
+}
+
+.product_3_div ul li {
+  list-style: none;
+}
+
+.product_3_div ul li a {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 0px 10px 0px;
+  background-color: #1a459d;
+  color: white;
+}
+
+.product-3-ul {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product-3-li {
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.product_3_div ul li h2 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+/* PT Media PLus */
+#PT-Media-Plus {
+  background-color: #b6b6b6;
+  width: 100%;
+  height: 60px;
+}
+
+.PT-Media-Plus-tag-p {
+  padding-top: 30px;
+  padding-left: 100px;
+  font-size: 12px;
+  color: white;
+}
